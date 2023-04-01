@@ -1,0 +1,19 @@
+{
+  "name": "azure-cognitiveservices-face-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "h-morozumi <morozumi.h@outlook.com>",
+  "license": "ISC",
+  "repository": "https://github.com/h-morozumi/azure-cognitiveservices-face-demo.git",
+  "dependencies": {
+    "@azure/cognitiveservices-face": "^5.0.0",
+    "@azure/ms-rest-js": "^2.6.4",
+    "dotenv": "^16.0.3",
+    "uuid": "^9.0.0"
+  }
+}
