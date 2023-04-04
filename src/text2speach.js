@@ -13,7 +13,7 @@ speechConfig.speechSynthesisLanguage = "ja-JP";
 speechConfig.speechSynthesisVoiceName = "ja-JP-NanamiNeural";
 
 const text = `
-こんにちは。私の名前は中野です。どうぞよろしくー！
+こんにちは。私の名前は七海です。どうぞよろしくー！
 少し自己紹介をさせてください。私は、東京都出身です。
 好きな食べ物はリンゴです。好きなスポーツはサッカーです。
 好きなアニメは「ワンピース」です。好きなゲームは「ポケモン」です。
