@@ -1,5 +1,6 @@
 'use strict';
 
 const faceApi = require('./faceapi.js');
-
-faceApi.main();
+const speech = require('./text2speach.js');
+//faceApi.main();
+speech.speech();
