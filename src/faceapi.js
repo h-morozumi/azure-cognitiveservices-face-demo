@@ -1,10 +1,5 @@
 'use strict';
 
-const path = require('path');
-require('dotenv').config({ 
-    path: path.resolve(__dirname, '../.env') 
-});
-
 const msRest = require("@azure/ms-rest-js");
 const Face = require("@azure/cognitiveservices-face");
 const { v4: uuid } = require('uuid');

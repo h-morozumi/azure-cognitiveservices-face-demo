@@ -24,8 +24,7 @@ exports.speech = async function() {
     // Create the speech synthesizer.
     const synthesizer = new sdk.SpeechSynthesizer(speechConfig, audioConfig);
 
-    synthesizer.speakTextAsync(text, 
-        function (result) {
+    synthesizer.speakTextAsync(text, (result) => {
             if (result.reason === sdk.ResultReason.SynthesizingAudioCompleted) {
                 console.log("synthesis finished.");
             } else {
@@ -33,15 +32,7 @@ exports.speech = async function() {
             }
             synthesizer.close();
             synthesizer = null;
-        }
-        // ,
-        // function (err) {
-        //     console.trace("err - " + err);
-        //     synthesizer.close();
-        //     synthesizer = null;
-        // }
-        );
+        });
     console.log("Now synthesizing to: " + audioFile);
 
 }
-
