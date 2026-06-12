@@ -16,6 +16,6 @@
     "@azure/ms-rest-js": "^2.6.4",
     "dotenv": "^16.0.3",
     "microsoft-cognitiveservices-speech-sdk": "^1.26.0",
-    "uuid": "^9.0.0"
+    "uuid": "^14.0.0"
   }
 }
